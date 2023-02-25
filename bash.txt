@@ -1,0 +1,10 @@
+path=Università/Magistrale
+url=https://adlibitum.oats.inaf.it/monaco/etc/perAbInf.tgz
+cd $path
+mkdir abinfo
+cd abinfo
+wget $url
+tar -xzvf perAbInf.tgz
+cd data
+jupyter notebook
+*ho creato il file Marini_Federico.ipynb da interfaccia jupyter notebook*
