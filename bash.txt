@@ -1,0 +1,5 @@
+mkdir abinfo
+cd /abinfo
+wget https://adlibitum.oats.inaf.it/monaco/etc/perAbInf.tgz
+tar -xzvf perAbInf.tgz
+cd data
